@@ -201,7 +201,7 @@
 )]
 #![cfg_attr(test, deny(warnings))]
 
-mod exporter;
+pub mod exporter;
 mod propagator {
     //! # Jaeger Propagator
     //!
